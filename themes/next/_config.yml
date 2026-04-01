@@ -347,7 +347,7 @@ disqus:
 changyan:
   enable: true
   appid: cytb08BHP
-  appkey: 0741139bf31f80cf7c07542b8cd4a524
+  appkey: prod_d5ef9efa1d22d5d7ed22c9b0018136f5
 
     
 # Valine. 

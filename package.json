@@ -1,17 +1,22 @@
 {
-  "name": "hexo-site",
+  "name": "hexo-blog",
   "version": "1.0.0",
   "private": true,
   "hexo": {
-    "version": "3.3.8"
+    "version": "3.9.0"
   },
   "scripts": {
-		"serve": "hexo s",
-		"build": "hexo deploy"
-	},
+    "serve": "hexo server",
+    "build": "hexo clean && hexo generate",
+    "publish": "hexo deploy"
+  },
+  "engines": {
+    "node": "^12.16.2"
+  },
   "dependencies": {
     "hexo": "^3.2.0",
-    "hexo-admin": "^2.2.1",
+    "hexo-admin-qiniu": "^2.2.0",
+    "hexo-asset-img": "^1.1.0",
     "hexo-deployer-git": "^0.3.1",
     "hexo-generator-archive": "^0.1.4",
     "hexo-generator-baidu-sitemap": "^0.1.2",
